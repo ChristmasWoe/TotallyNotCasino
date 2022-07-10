@@ -1,0 +1,326 @@
+.main-block {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  grid-template-rows: 64px 144px 268px 108px;
+  gap: 20px 50px;
+
+  height: 814px;
+  background: rgba(33, 33, 33, 0.5);
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: rgba(235, 180, 28, 0.5);
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+
+  margin-left: 18px;
+  margin-top: 66px;
+
+  padding: 20px 20px 20px 32px;
+
+  width: 69.44%;
+}
+
+.main-block > div {
+  background: #2c2c2d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  opacity: 1 !important;
+}
+
+.round {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+.last-winners {
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 3.5;
+}
+
+.check-honestry {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+}
+
+.roulette-block {
+  grid-column: 2;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  height: 690px;
+}
+
+.check-winner-banner {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  background: #2c2c2d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ebb41c;
+  opacity: 1;
+}
+
+.check-winner-banner img {
+  height: 18px;
+  margin-right: 8px;
+}
+
+.check-winner-banner h3 {
+  white-space: nowrap;
+}
+
+.select-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  grid-column-start: 3;
+  grid-row-start: 1;
+  background: #2c2c2d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  color: #ebb41c;
+}
+
+.select-mode img {
+  width: 16px;
+  margin-right: 9px;
+}
+
+.bets {
+  grid-column-start: 3;
+  grid-row-start: 2;
+  grid-row-end: 6;
+  height: 690px;
+}
+
+.roulette-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.roulette-title h1 {
+  font-size: 25px;
+  color: #ebb41c;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+
+  margin: 0 7px 0 0;
+}
+
+.roulette-title > * {
+  margin-right: 7px;
+}
+
+.roulette {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+
+  width: 250px;
+  height: 250px;
+
+  border: 10px solid #ebb41c;
+  border-radius: 50%;
+
+  margin-top: 41px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.win-chance {
+  width: 114px;
+  margin-top: 31px;
+
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.win-chance > span {
+  color: #ebb41c;
+  font-weight: 700;
+}
+
+.coins-betted {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ebb41c;
+}
+
+.coins-betted img {
+  height: 20px;
+}
+
+.time-left {
+  margin-bottom: 34px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.time-left span {
+  height: min-content;
+  align-items: center;
+}
+
+.time-left > span > img {
+  margin-bottom: -3px;
+}
+
+.min-max-bets {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.max-bet {
+  margin-left: 25px;
+}
+
+.max-bet img {
+  margin-left: 5px;
+}
+
+.min-bet img {
+  margin-left: 5px;
+}
+
+.make-bet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 58.4%;
+  height: 144px;
+
+  background: #2c2c2d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.make-bet input {
+  width: 117px;
+  height: 34px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #212121;
+  border: 1px solid #ebb41c;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+
+  outline: none;
+  color: white;
+}
+
+.make-bet input::-webkit-outer-spin-button,
+.make-bet input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.make-bet button {
+  width: 86%;
+  height: 50px;
+  background: #ebb41c;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+
+  margin-top: 20px;
+}
+
+.round-hash {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  width: 250px;
+  height: 106px;
+
+  background: #2c2c2d;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  margin-top: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.round-hash h3 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.round-hash p {
+  width: 189px;
+  height: 39px;
+  overflow-wrap: break-word;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 130%;
+
+  text-align: center;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.round h3 {
+  width: min-content;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+.round-stats {
+  font-weight: 400;
+  margin-left: 10%;
+}
+
+.round-stats > p > span {
+  color: #ebb41c;
+}

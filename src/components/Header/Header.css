@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  flex-direction: row;
+}
+
+.header-menu {
+  display: flex;
+  padding: 0;
+  margin-right: 77px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.header-menu > li {
+  margin-left: 25px;
+  height: min-content;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.header-logo {
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #ebb41c;
+  height: min-content;
+}
+
+.withdraw-profile-block {
+  display: flex;
+  height: 50px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+}
+
+.withdraw-profile-block > button {
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  border-radius: 10px;
+  border: none;
+}
+
+.deposit-btn {
+  background: #ebb41c;
+  cursor: pointer;
+}
+
+.withdraw-btn {
+  background: #5eb69e;
+  cursor: pointer;
+}
+
+.profile-block {
+  display: flex;
+}
+
+.nickname {
+  margin: 6px 21px 0 0;
+}
+
+.balance {
+  margin: 0;
+  color: #ebb41c;
+  margin-right: 3px;
+}
+
+.balance-block {
+  display: flex;
+}
