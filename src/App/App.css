@@ -10,11 +10,11 @@
   left: 0;
   bottom: 0;
   z-index: 2;
-  bottom: -86px;
+  bottom: -100px;
 }
 .rebel {
   position: absolute;
   right: 0;
   z-index: 2;
-  bottom: -86px;
+  bottom: -100px;
 }

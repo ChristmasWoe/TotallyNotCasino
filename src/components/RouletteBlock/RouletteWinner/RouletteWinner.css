@@ -1,0 +1,56 @@
+.roulette-winner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+.roulette-winner-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+
+  box-sizing: border-box;
+  background: #212121;
+  border: 2px solid #ebb41c;
+  border-radius: 20px;
+
+  height: fit-content;
+  width: 171px;
+
+  padding-top: 20px;
+
+  text-align: center;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}
+.winner-skin {
+  margin-bottom: 5px;
+  width: 40px;
+  height: 40px;
+}
+.congrats-line {
+  width: 80%;
+}
+.percentage-of-skin {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: rgba(235, 180, 28, 1);
+}
+.winner-cup {
+  margin-top: 15px;
+  margin-bottom: 23px;
+}

@@ -3,13 +3,12 @@ import './HiddenMessenger.css';
 import arrow from '../../sources/arrowLeft.svg';
 import chat from '../../sources/chat.svg';
 
-const HiddenMessenger = () => {
+const HiddenMessenger = ({ ...rootDOMAttributes }) => {
   return (
-    <div className="hidden-messenger">
-      <btn>
-        <img src={arrow} alt="" />
-        <img src={chat} alt="" />
-      </btn>
+    <div {...rootDOMAttributes} className="hidden-messenger">
+      <img className="hidden-messenger-arrow" src={arrow} alt="" />
+
+      <img className="hidden-messenger-chat" src={chat} alt="" />
     </div>
   );
 };

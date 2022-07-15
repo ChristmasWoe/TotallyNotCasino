@@ -1,0 +1,106 @@
+.messenger {
+  position: relative;
+  border-width: 0px 2px;
+  border-style: solid;
+  border-color: rgba(235, 180, 28, 0.5);
+  border-radius: 20px;
+  z-index: 1;
+}
+.messenger::before {
+  position: absolute;
+  box-sizing: border-box;
+  width: 240px;
+  height: 713px;
+  background: #212121;
+
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+
+  opacity: 0.5;
+  z-index: -1;
+}
+.messenger-header {
+  display: flex;
+  margin-top: 24px;
+  align-items: center;
+}
+.messenger-chat-icon {
+  margin-left: 24px;
+}
+.messenger-online {
+  margin-left: 10px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #8f8f8f;
+}
+.messenger-arrow-right {
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 33px;
+}
+.messenger-header-line {
+  width: 100% !important;
+  height: 1px !important;
+  background: #86712d !important;
+  border-radius: 0 !important;
+  margin-top: 25px !important;
+}
+.messenger-block {
+  height: 80%;
+}
+.messages-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.messenger-block-input {
+  margin-top: 87px;
+
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  background: none;
+  margin-left: 20px;
+}
+.messenger-block-input > input {
+  width: 165px;
+  padding-left: 15px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  background: #212121;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-color: #212121 !important;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: #8f8f8f;
+  border-width: 0;
+}
+.messenger-block-input > input:focus-visible {
+  outline: none;
+}
+
+.messenger-block-input > button {
+  width: 35px;
+  height: 37px;
+  background: #ebb41c;
+  border-radius: 0px 10px 10px 0px;
+  border-width: 0;
+}
+.messenger-block-input > button > img {
+  margin-top: auto !important;
+  width: 16px;
+  height: 16px;
+}

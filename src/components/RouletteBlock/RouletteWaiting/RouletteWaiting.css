@@ -1,0 +1,62 @@
+.roulette-waiting {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 250px;
+  height: 250px;
+
+  border: 10px solid #ebb41c;
+
+  border-radius: 50%;
+
+  margin-top: 41px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -20px;
+}
+
+.coins-betted {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ebb41c;
+}
+
+.coins-betted img {
+  height: 20px;
+  margin-left: 3px;
+}
+.time-left {
+  margin-bottom: 34px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.time-left span {
+  height: min-content;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.time-left > span > img {
+  margin-bottom: -3px;
+  margin-right: 9px;
+}

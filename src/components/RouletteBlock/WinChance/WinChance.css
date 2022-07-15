@@ -1,0 +1,21 @@
+.win-chance {
+  width: 114px;
+  margin-top: 31px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.win-chance > span {
+  color: #ebb41c;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+}

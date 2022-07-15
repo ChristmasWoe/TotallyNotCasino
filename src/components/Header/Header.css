@@ -16,6 +16,11 @@
   margin-bottom: auto;
   gap: 25px;
 }
+.header-logo > img {
+  width: 99px;
+  height: 76px;
+  cursor: pointer;
+}
 
 .header-menu-button {
   background-color: #1e1e1e;
@@ -43,6 +48,8 @@
 
 .deposit-btn {
   background: #ebb41c;
+}
+.deposit-btn > img {
 }
 
 .withdraw-btn {

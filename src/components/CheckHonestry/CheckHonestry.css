@@ -1,0 +1,32 @@
+.check-honestry {
+  grid-column-start: 1;
+  grid-row-start: 4;
+  grid-row-end: 4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.check-honestry-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 56%;
+}
+.check-honestry-link {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #ffffff;
+  width: 85%;
+}

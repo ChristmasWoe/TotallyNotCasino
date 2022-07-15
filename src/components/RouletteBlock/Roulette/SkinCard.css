@@ -1,0 +1,24 @@
+.skin-card {
+  width: 50px;
+  height: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ebb41c;
+  border-radius: 10px;
+}
+.skin-card > img {
+  height: 40px;
+  width: 40px;
+}
+.skin-percentage {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+
+  color: #ebb41c;
+}

@@ -1,0 +1,21 @@
+.hidden-messenger {
+  width: 143px;
+  height: 67px;
+  display: flex;
+  flex-direction: row;
+  background: #1f1f1f;
+  border-left: 1px solid #ebb41c;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: -71px;
+  align-items: center;
+  padding-left: 13px;
+
+  cursor: pointer;
+}
+
+.hidden-messenger-chat {
+  width: 25px;
+  height: 25px;
+  margin-left: 19px;
+}
