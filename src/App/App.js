@@ -6,6 +6,7 @@ import ct from "../sources/ct.svg";
 import rebel from "../sources/rebel.svg";
 import ProfilePage from "../components/ProfilePage/ProfilePage";
 import DepositPage from "../components/DepositPage/DepositPage";
+import WithdrawPage from "../components/WithdrawBlock/WithdrawPage";
 
 const App = () => {
   return (
@@ -14,7 +15,7 @@ const App = () => {
       <img className="rebel" src={rebel} alt="" />
       <div className="container">
         <Header />
-        <DepositPage />
+        <WithdrawPage />
       </div>
     </div>
   );

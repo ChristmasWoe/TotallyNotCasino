@@ -1,4 +1,4 @@
-.payment-credits-block {
+.withdraw-credits-block {
   grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: span 2;
@@ -13,14 +13,14 @@
   flex-direction: column;
 }
 
-.deposit-sum {
+.withdraw-sum {
   width: fit-content;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.deposit-sum > div {
+.withdraw-sum > div {
   margin-top: 10px;
   padding-top: 4px;
   width: 159px;
@@ -126,8 +126,8 @@
   margin-top: 8px;
 }
 
-.deposit-block-btn {
-  background: #ebb41c;
+.withdraw-block-btn {
+  background: #5eb69e;
   box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
   width: 103px;
@@ -150,7 +150,7 @@
   color: white;
 }
 
-.payment-credits-block > p {
+.withdraw-credits-block > p {
   margin-top: 5px;
   margin-bottom: 0;
   font-family: "Inter";
