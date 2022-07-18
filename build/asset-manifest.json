@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db356b90.css",
+    "main.js": "/static/js/main.b62da82f.js",
+    "static/media/ct.svg": "/static/media/ct.97aef184b8ae42c21b17e93c54e75771.svg",
+    "static/media/rebel.svg": "/static/media/rebel.025e3b3a83656e02dcd890bf6b733bc3.svg",
+    "static/media/mainLogo.svg": "/static/media/mainLogo.36d27bc9a969f0d6c6993f8ff6c6209f.svg",
+    "static/media/winnerAvatar.svg": "/static/media/winnerAvatar.d3b8c982d963425e34b214ab1112bca2.svg",
+    "static/media/profile-logo.png": "/static/media/profile-logo.53ee1388c94e397104f9.png",
+    "static/media/promocode-icon.svg": "/static/media/promocode-icon.3189f40f99525a608a0f2a0fc24a2964.svg",
+    "static/media/roulettePointer.svg": "/static/media/roulettePointer.2f89f41499571797febb4af0479a7c19.svg",
+    "static/media/chat.svg": "/static/media/chat.360cec82bff7f9a3212b440d8d1c641c.svg",
+    "static/media/sendMessage.svg": "/static/media/sendMessage.7f6ea310e907052c2c61d8f12a2c12f4.svg",
+    "static/media/crown-icon.svg": "/static/media/crown-icon.9ca5f7df4b5c7c6b8eee28b524274079.svg",
+    "static/media/emptyCrown.svg": "/static/media/emptyCrown.76d325b7235abab9bd8d33cb8a0dcde8.svg",
+    "static/media/select-mode-icon.svg": "/static/media/select-mode-icon.a54ae0814a4f636f107ce08111581e93.svg",
+    "static/media/winnerCup.svg": "/static/media/winnerCup.9d018eb0dc0ec54b12ba56ab3886455f.svg",
+    "index.html": "/index.html",
+    "static/media/timer-icon.svg": "/static/media/timer-icon.b4f8365ac3a1d49f5e83ed96b79cf451.svg",
+    "static/media/info-icon.svg": "/static/media/info-icon.80116c9c307ca75059f54c8a4d53b7a5.svg",
+    "static/media/deposit-logo.svg": "/static/media/deposit-logo.5bc62bac37f681e13ff35d7894dba03b.svg",
+    "static/media/arrow.svg": "/static/media/arrow.730c4dcbc32e17a9ef6c0228d26820a8.svg",
+    "static/media/arrowLeft.svg": "/static/media/arrowLeft.142ddd75742a09b2280dc2d0b36bc0db.svg",
+    "static/media/withdraw-logo.svg": "/static/media/withdraw-logo.06acb100f1346c317967112b824ae087.svg",
+    "static/media/coin.svg": "/static/media/coin.7df123038be6053173c10366a5936e0d.svg",
+    "main.db356b90.css.map": "/static/css/main.db356b90.css.map",
+    "main.b62da82f.js.map": "/static/js/main.b62da82f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db356b90.css",
+    "static/js/main.b62da82f.js"
+  ]
+}

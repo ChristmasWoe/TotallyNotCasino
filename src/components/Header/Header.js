@@ -5,29 +5,58 @@ import mainLogo from '../../sources/mainLogo.svg';
 import depositLogo from '../../sources/deposit-logo.svg';
 import withdrawLogo from '../../sources/withdraw-logo.svg';
 import coin from '../../sources/coin.svg';
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const goToWithdraw = e => {
+    e.preventDefault();
+    navigate("../withdraw", { replace: true });
+  }
+
+  const goToMain = e => {
+    e.preventDefault();
+    navigate("../", { replace: true });
+  }
+
+  const goToDeposit = e => {
+    e.preventDefault();
+    navigate("../deposit", { replace: true });
+  }
+
   const buttons = ['Главная', 'Честная игра', 'История игр', 'Поддержка'];
+  let navigate = useNavigate();
   const renderedButtons = buttons.map((line, i) => {
-    return (
-      <button className="header-menu-button" key={i}>
-        {line}
-      </button>
-    );
+    if(i==0){
+      return (
+        <button onClick={goToMain} className="header-menu-button" key={i}>
+          {line}
+        </button>
+      );
+    }else{
+      return (
+        <button className="header-menu-button" key={i}>
+          {line}
+        </button>
+      );
+    }
+   
   });
   const nickname = 'Nickname';
   const balance = '25000';
+
+ 
+
   return (
     <div className="header">
-      <div className="header-logo">
+      <div onClick={goToMain} className="header-logo">
         <img src={mainLogo} alt="" />
       </div>
       <div className="header-menu">{renderedButtons}</div>
       <div className="withdraw-profile-block">
-        <button className="deposit-btn">
+        <button onClick={goToDeposit} className="deposit-btn">
           <img src={depositLogo} alt="" />
         </button>
-        <button className="withdraw-btn">
+        <button onClick={goToWithdraw} className="withdraw-btn">
           <img src={withdrawLogo} alt="" />
         </button>
         <div className="profile-block">
