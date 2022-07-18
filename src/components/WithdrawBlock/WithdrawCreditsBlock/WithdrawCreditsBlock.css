@@ -1,0 +1,164 @@
+.withdraw-credits-block {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-row-end: span 2;
+
+  background: #212121;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  padding-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.withdraw-sum {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.withdraw-sum > div {
+  margin-top: 10px;
+  padding-top: 4px;
+  width: 159px;
+  height: 30px;
+  background: #212121;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+
+.in-coins > div > input {
+  margin-left: 0px;
+  width: 70%;
+  height: 92%;
+  outline: none;
+  border: none;
+  background-color: none;
+  background: #212121;
+  color: white;
+}
+.in-roubles {
+  margin-top: 25px;
+}
+
+.in-roubles > div > p {
+  display: inline-block;
+  width: fit-content;
+  font-size: 10px;
+  margin-top: 0;
+  margin-left: 16px;
+}
+
+.in-roubles > div > input {
+  width: fit-content;
+  width: 60%;
+  height: 92%;
+  outline: none;
+  border: none;
+  background-color: none;
+  background: #212121;
+  color: white;
+}
+
+.telephone-promocode-block {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 25px;
+}
+
+.telephone {
+  text-align: center;
+}
+
+.telephone > div {
+  margin-top: 10px;
+  padding-top: 4px;
+  width: 159px;
+  height: 30px;
+  background: #212121;
+  box-shadow: 0px 4px 25px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.telephone-number-input {
+  width: fit-content;
+  width: 80%;
+  height: 92%;
+  outline: none;
+  border: none;
+  background: #212121;
+  color: white;
+}
+
+.promocode {
+  text-align: center;
+}
+
+.promocode > div {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  width: 159px;
+  height: 30px;
+  background: #212121;
+  box-shadow: 0px 4px 25px rgb(0 0 0 / 25%);
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.promocode-input {
+  width: 74%;
+  height: 100%;
+  outline: none;
+  border: none;
+  background: #212121;
+  color: white;
+}
+
+.promocode > div > img {
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.withdraw-block-btn {
+  background: #5eb69e;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  width: 103px;
+  height: 38px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: white;
+}
+
+.withdraw-credits-block > p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+
+  color: #cbcbcb;
+}

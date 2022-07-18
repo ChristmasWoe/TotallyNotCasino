@@ -4,6 +4,9 @@ import Header from '../components/Header/Header';
 import BodyBlock from '../components/BodyBlock/BodyBlock';
 import ct from '../sources/ct.svg';
 import rebel from '../sources/rebel.svg';
+import ProfilePage from '../components/ProfilePage/ProfilePage';
+import DepositPage from '../components/DepositPage/DepositPage';
+import WithdrawPage from '../components/WithdrawBlock/WithdrawPage';
 
 const App = () => {
   return (
@@ -13,6 +16,7 @@ const App = () => {
       <div className="container">
         <Header />
         <BodyBlock />
+        <WithdrawPage />
       </div>
     </div>
   );

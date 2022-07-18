@@ -1,0 +1,50 @@
+.withdraw-method-block {
+  position: relative;
+  grid-column-start: 1;
+  grid-row-start: 1;
+
+  height: 232px;
+
+  background: #212121;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  padding-left: 20px;
+  padding-top: 9px;
+}
+
+.withdraw-method-card > div {
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.withdraw-method-card {
+  margin-top: 12px;
+  cursor: pointer;
+}
+
+.withdraw-method-card img {
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+
+#yoomoney-logo {
+  width: 32px;
+  height: 22px;
+}
+
+.withdraw-method-card p {
+  margin: 0;
+  width: fit-content;
+}
+
+.withdraw-method-card > span {
+  display: block;
+  height: 1px;
+  width: 83%;
+  background-color: #ebb41c;
+}

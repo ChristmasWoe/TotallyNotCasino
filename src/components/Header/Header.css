@@ -49,8 +49,8 @@
 .deposit-btn {
   background: #ebb41c;
 }
-.deposit-btn > img {
-}
+/* .deposit-btn > img {
+} */
 
 .withdraw-btn {
   background: #5eb69e;
@@ -59,8 +59,8 @@
 .profile-block {
   display: flex;
 }
-.profile-info-block {
-}
+/* .profile-info-block {
+} */
 
 .nickname {
   margin: 6px 21px 0 0;
