@@ -10,7 +10,6 @@ const BodyBlock = () => {
   return (
     <div className="body-block">
       <Main />
-      {/* onClick={()=>{setMessengerActive(!messengerActive)}} */}
 
       {messengerActive ? (
         <Messenger

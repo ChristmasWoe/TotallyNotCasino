@@ -40,9 +40,9 @@ const RouletteBlock = () => {
         <h1>{rouletteTitle}</h1>
         <img src={crownIcon} alt="" />
       </div>
-      {/* <Roulette skinPercentage={skinPercentage} /> */}
+      <Roulette skinPercentage={skinPercentage} />
       {/* <RouletteWaiting /> */}
-      <RouletteWinner percentage={skinPercentage[0]} />
+      {/* <RouletteWinner percentage={skinPercentage[0]} /> */}
 
       <div className="min-max-bets">
         <div className="min-bet">
