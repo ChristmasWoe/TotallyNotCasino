@@ -23,6 +23,11 @@ const Header = () => {
     navigate("../deposit", { replace: true });
   }
 
+  const goToProfile= e => {
+    e.preventDefault();
+    navigate("../profile", { replace: true });
+  }
+
   const buttons = ['Главная', 'Честная игра', 'История игр', 'Поддержка'];
   let navigate = useNavigate();
   const renderedButtons = buttons.map((line, i) => {
@@ -67,7 +72,7 @@ const Header = () => {
               <img src={coin} alt="" />
             </div>
           </div>
-          <img className="profile-logo" src={profileLogo} alt="" />
+          <img onClick={goToProfile} className="profile-logo" src={profileLogo} alt="" />
         </div>
       </div>
     </div>

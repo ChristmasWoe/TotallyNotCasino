@@ -21,6 +21,7 @@ const App = () => {
             <Route path="/" element={<BodyBlock />} />
             <Route path="withdraw" element={<WithdrawPage />} />
             <Route path="deposit" element={<DepositPage />} />
+            <Route path="profile" element={<ProfilePage />} />
           </Routes>
         </div>
       </div>
