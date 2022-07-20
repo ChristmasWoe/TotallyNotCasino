@@ -8,42 +8,27 @@ import coin from '../../sources/coin.svg';
 import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-  const goToWithdraw = e => {
-    e.preventDefault();
-    navigate("../withdraw", { replace: true });
-  }
-
-  const goToMain = e => {
-    e.preventDefault();
-    navigate("../", { replace: true });
-  }
-
-  const goToDeposit = e => {
-    e.preventDefault();
-    navigate("../deposit", { replace: true });
-  }
-
-  const goToProfile= e => {
-    e.preventDefault();
-    navigate("../profile", { replace: true });
-  }
-
-  const buttons = ['Главная', 'Честная игра', 'История игр', 'Поддержка'];
   let navigate = useNavigate();
-  const renderedButtons = buttons.map((line, i) => {
-    if(i==0){
+  const goToPath = (e,p) => {
+    e.preventDefault();
+    navigate("../"+p, { replace: true });
+  }
+ 
+  const buttons = [
+    {label:"Главная",callback:(e)=>{goToPath(e,"")}},
+    {label:"Честная игра",callback:()=>{}},
+    {label:"История игр",callback:(e)=>{goToPath(e,"history")}},
+    {label:"Поддержка",callback:(e)=>{goToPath(e,"support")}}]
+
+  
+  const renderedButtons = buttons.map((b, i) => {
       return (
-        <button onClick={goToMain} className="header-menu-button" key={i}>
-          {line}
+        <button onClick={b.callback} className="header-menu-button" key={i}>
+          {b.label}
         </button>
       );
-    }else{
-      return (
-        <button className="header-menu-button" key={i}>
-          {line}
-        </button>
-      );
-    }
+   
+    
    
   });
   const nickname = 'Nickname';
@@ -53,15 +38,15 @@ const Header = () => {
 
   return (
     <div className="header">
-      <div onClick={goToMain} className="header-logo">
+      <div onClick={e=>goToPath(e,"")} className="header-logo">
         <img src={mainLogo} alt="" />
       </div>
       <div className="header-menu">{renderedButtons}</div>
       <div className="withdraw-profile-block">
-        <button onClick={goToDeposit} className="deposit-btn">
+        <button onClick={e=>goToPath(e,"deposit")} className="deposit-btn">
           <img src={depositLogo} alt="" />
         </button>
-        <button onClick={goToWithdraw} className="withdraw-btn">
+        <button onClick={e=>goToPath(e,"withdraw")} className="withdraw-btn">
           <img src={withdrawLogo} alt="" />
         </button>
         <div className="profile-block">
@@ -72,7 +57,7 @@ const Header = () => {
               <img src={coin} alt="" />
             </div>
           </div>
-          <img onClick={goToProfile} className="profile-logo" src={profileLogo} alt="" />
+          <img onClick={e=>goToPath(e,"profile")} className="profile-logo" src={profileLogo} alt="" />
         </div>
       </div>
     </div>

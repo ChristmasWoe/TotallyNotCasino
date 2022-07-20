@@ -1,19 +1,16 @@
 import React, { useState } from 'react';
-import Main from '../Main/Main';
 import Messenger from '../Messenger/Messenger';
 import HiddenMessenger from '../HiddenMessenger/HiddenMessenger';
 import SupportPage from '../SupportPage/SupportPage';
-import './BodyBlock.css';
-// import GamesHistory from '../GamesHistory/GamesHistory';
+import './BodyGameHistory.css';
+import GamesHistory from '../GamesHistory/GamesHistory';
 
-const BodyBlock = () => {
+const BodyGameHistory = () => {
   const [messengerActive, setMessengerActive] = useState(true);
 
   return (
     <div className="body-block">
-      <Main />
-      {/* <SupportPage /> */}
-      {/* <GamesHistory /> */}
+      <GamesHistory />
 
       {messengerActive ? (
         <Messenger
@@ -31,4 +28,4 @@ const BodyBlock = () => {
     </div>
   );
 };
-export default BodyBlock;
+export default BodyGameHistory;

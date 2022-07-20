@@ -10,8 +10,8 @@ const SupportPage = () => {
   return (
     <div className="support-page">
       <h3>{title}</h3>
-      <MakeRequest />
-      {/* <RequestForm /> */}
+      {/* <MakeRequest /> */}
+      <RequestForm />
       {/* <SupportChat /> */}
       <MyRequests />
     </div>

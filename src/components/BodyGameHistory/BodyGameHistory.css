@@ -1,0 +1,7 @@
+.body-block {
+  margin-top: 66px;
+  margin-left: 18px;
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}

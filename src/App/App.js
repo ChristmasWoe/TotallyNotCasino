@@ -8,6 +8,9 @@ import ProfilePage from '../components/ProfilePage/ProfilePage';
 import DepositPage from '../components/DepositPage/DepositPage';
 import WithdrawPage from '../components/WithdrawBlock/WithdrawPage';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import BodyGameHistory from '../components/BodyGameHistory/BodyGameHistory';
+import BodySupportPage from '../components/BodySupportPage/BodySupportPage';
+
 
 const App = () => {
   return (
@@ -22,6 +25,8 @@ const App = () => {
             <Route path="withdraw" element={<WithdrawPage />} />
             <Route path="deposit" element={<DepositPage />} />
             <Route path="profile" element={<ProfilePage />} />
+            <Route path="history" element={<BodyGameHistory />} />
+            <Route path="support" element={<BodySupportPage />} />
           </Routes>
         </div>
       </div>
