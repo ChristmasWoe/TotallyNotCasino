@@ -4,7 +4,7 @@ import './MyRequests.css';
 const MyRequests = () => {
   const title = 'Мои обращения';
   const requests = [
-    '1 обращение',
+    '357562 обращение',
     '357562 обращение',
     '357562 обращение',
     '357562 обращение',

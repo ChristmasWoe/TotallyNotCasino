@@ -11,9 +11,9 @@ const BodyBlock = () => {
 
   return (
     <div className="body-block">
-      <Main />
+      {/* <Main /> */}
       {/* <SupportPage /> */}
-      {/* <GamesHistory /> */}
+      <GamesHistory />
 
       {messengerActive ? (
         <Messenger
