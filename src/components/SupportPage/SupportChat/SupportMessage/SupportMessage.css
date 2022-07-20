@@ -1,0 +1,40 @@
+.support-message {
+  display: flex;
+  flex-direction: row;
+}
+.support-message > img {
+  width: 55px;
+  height: 55px;
+}
+.support-message-author-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+}
+.support-message-author {
+  margin-left: 15px;
+  margin-bottom: 5px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #cbcbcb;
+}
+.support-message-content-box {
+  background: #212121;
+  box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 16px;
+}
+.support-message-content {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #ffffff;
+}

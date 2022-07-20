@@ -1,0 +1,54 @@
+.make-request {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.make-request-top-paragraph {
+  width: 655px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.make-request > button {
+  margin-top: 25px;
+
+  width: 256px;
+  height: 50px;
+
+  background: #ebb41c;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+
+  cursor: pointer;
+}
+.make-request-bottom-line {
+  margin-top: 15px;
+
+  width: 231px;
+  height: 68px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #cbcbcb;
+}

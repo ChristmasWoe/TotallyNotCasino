@@ -1,0 +1,152 @@
+.game-card {
+  display: flex;
+  flex-direction: row;
+}
+.game-card > img {
+  width: 55px;
+  height: 55px;
+}
+.game-card-content-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5px;
+  gap: 5px;
+}
+.game-card-name-date-index {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.game-card-name-date {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #cbcbcb;
+
+  margin-left: 15px;
+}
+.game-card-index {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #cbcbcb;
+}
+.game-card-bet-chance-prize-box {
+  width: 249px;
+  height: 67px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+  background: #212121;
+  box-shadow: 0px 4px 52px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.game-card-bet {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.game-card-bet-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.game-card-bet-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ebb41c;
+}
+.game-card-bet-value > img {
+  width: 20px;
+  height: 20px;
+}
+.game-card-chance {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.game-card-chance-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.game-card-chance-value {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ebb41c;
+}
+.game-card-prize {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.game-card-prize-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+
+  color: #ffffff;
+}
+.game-card-prize-value {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ebb41c;
+}
+.game-card-prize-value > img {
+  width: 20px;
+  height: 20px;
+}

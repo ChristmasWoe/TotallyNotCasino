@@ -16,7 +16,7 @@ const App = () => {
       <div className="container">
         <Header />
         <BodyBlock />
-        <WithdrawPage />
+        {/* <WithdrawPage /> */}
       </div>
     </div>
   );

@@ -1,0 +1,46 @@
+.games-history {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  width: 69.44%;
+  height: 800px;
+  z-index: 1;
+
+  border-width: 2px 0px;
+  border-style: solid;
+  border-color: #ebb41c;
+  border-radius: 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.games-history::before {
+  position: absolute;
+  opacity: 0.5;
+  z-index: -1;
+  background: #212121;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.25);
+}
+.games-history > h3 {
+  width: 156px;
+  height: 30px;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+
+  color: #ebb41c;
+  margin-top: 20px !important;
+  margin-bottom: 50px;
+}
+.games-history-cards-block {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
